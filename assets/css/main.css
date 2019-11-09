@@ -1,0 +1,90 @@
+
+@font-face {
+  font-family: Planewalker;
+  src: url("/assets/font/Planewalker.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --background-body: #302320;
+  --text-main: #F2EDDF;
+  --main-brand: #BB7733;
+  --dark-accent: #946345;
+  --light-accent: #A09F8F;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link, a:visited {
+  color: var(--main-brand);
+}
+
+a:hover, a:active {
+  color: var(--light-accent);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+body {
+  color: var(--text-main);
+  background: var(--background-body);
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: 1.33rem;
+  max-width: 50rem;
+  margin: 1.25rem auto;
+  padding: 0 0.625rem;
+  text-rendering: optimizeLegibility;
+}
+
+footer {
+  font-size: 0.75rem;
+  font-style: italic;
+  color: #AAAAAA;
+  margin-top: 2.5rem;
+}
+
+h1 {
+  color: var(--main-brand);
+  font-size: 2.4rem;
+  font-family: Planewalker;
+  margin-bottom: 1.333rem;
+  margin-top: 1.777rem;
+  text-transform: uppercase;
+  text-shadow: 0 0.125rem 0.0625rem #666666;
+}
+
+h2 {
+  color: var(--light-accent);
+  font-family: Planewalker;
+  font-size: 1.77rem;
+  text-shadow: 0 0.125rem 0.0625rem #666666;
+  text-transform: uppercase;
+}
+
+nav {
+  display: flex;
+  margin: 1.77rem auto;
+  text-transform: uppercase;
+  text-shadow: 0 0 0.0625rem #666666;
+}
+
+nav > a {
+  display: inline-block;
+  padding: 0 1.333rem 0 0;
+}
+
+.bullet-less, .bullet-less li {
+  list-style-position: inside;
+  list-style-type: none;
+  padding-bottom: 0.166rem;
+}
+
+.col_act {
+  color: #AAAAAA;
+}
