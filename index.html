@@ -6,11 +6,14 @@ title: articles
 <h2>{{ "articles" | upcase }}</h2>
 
 {% assign wiki_pages = site.pages | sort: "date" | reverse %}
-<ul class="bullet-less">
+<table class="article-chart">
 {% for page in wiki_pages %}
   {%- if page.url contains "/wiki" -%}
-    <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+    <tr>
+      <td class="muted">{{ page.date }}</td>
+      <td><a href="{{ page.url }}">{{ page.title }}</a></td>
+    </tr>
   {%- endif -%}
 {% endfor %}
-</ul>
+</table>
 
