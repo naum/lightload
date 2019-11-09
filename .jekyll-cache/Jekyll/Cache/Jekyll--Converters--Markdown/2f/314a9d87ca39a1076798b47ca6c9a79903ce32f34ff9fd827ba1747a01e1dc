@@ -1,0 +1,8 @@
+I"Q<p>What needs to be done yet for a fully production ready, <em>ready-to-view</em> web site for public perusal?</p>
+
+<ol>
+  <li><code class="highlighter-rouge">favicon.ico</code> generation</li>
+  <li>Pretty navigation bar</li>
+  <li>Styling for lists, figures, full width story images, smaller images floated left &amp; right</li>
+</ol>
+:ET
