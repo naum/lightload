@@ -1,12 +1,7 @@
 
-@font-face {
-  font-family: Planewalker;
-  src: url("/assets/font/Planewalker.otf");
-  font-weight: normal;
-  font-style: normal;
-}
-
 :root {
+  --font-accent: 'Merriweather';
+  --font-main: 'Fira Sans';
   --background-body: #302320;
   --text-main: #F2EDDF;
   --main-brand: #BB7733;
@@ -118,6 +113,12 @@ tfoot {
 
 .col_act {
   color: var(--light-accent);
+}
+
+.date-header {
+  font-size: 0.75rem;
+  color: var(--light-accent);
+  margin-top: -0.75rem;
 }
 
 .muted {
