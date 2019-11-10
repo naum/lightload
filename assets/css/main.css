@@ -25,6 +25,15 @@ a:hover {
   text-decoration: underline;
 }
 
+blockquote {
+  color: var(--light-accent);
+  font-size: 1rem;
+  line-height: 1.33rem;
+  margin: 1.77rem auto;
+  padding-left: 1.33rem;
+  padding-right: 1.33rem;
+}
+
 body {
   color: var(--text-main);
   background: var(--background-body);
@@ -35,6 +44,14 @@ body {
   margin: 1.33rem auto;
   padding: 0 0.75rem;
   text-rendering: optimizeLegibility;
+}
+
+dd {
+  margin-bottom: 1.33rem;
+}
+
+dt {
+  font-weight: 700;
 }
 
 footer {
@@ -54,7 +71,7 @@ h1, h2 {
 
 h1 {
   color: var(--main-brand);
-  font-size: 2.4rem;
+  font-size: 3.16rem;
   margin-bottom: 1.333rem;
   margin-top: 1.777rem;
   text-transform: uppercase;
@@ -67,9 +84,18 @@ h1 > a:hover {
 
 h2 {
   color: var(--light-accent);
-  font-size: 1.77rem;
+  font-size: 2.37rem;
   text-shadow: 0 0.125rem 0.0625rem var(--text-main);
   text-transform: uppercase;
+}
+
+h3 {
+  color: var(--light-accent);
+  font-size: 1.77rem;
+}
+
+li {
+  margin-top: 1.33rem;
 }
 
 nav {
@@ -118,7 +144,7 @@ tfoot {
 }
 
 .date-header {
-  font-size: 0.75rem;
+  font-size: 1rem;
   color: var(--light-accent);
   margin-top: -1rem;
 }
