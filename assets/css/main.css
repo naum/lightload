@@ -29,9 +29,9 @@ body {
   color: var(--text-main);
   background: var(--background-body);
   font-family: var(--font-main), sans-serif;
-  font-size: 100%;
-  line-height: 1.33rem;
-  max-width: 48rem;
+  font-size: 133.33%;
+  line-height: 1.77rem;
+  max-width: 50rem;
   margin: 1.33rem auto;
   padding: 0 0.75rem;
   text-rendering: optimizeLegibility;
@@ -120,7 +120,7 @@ tfoot {
 .date-header {
   font-size: 0.75rem;
   color: var(--light-accent);
-  margin-top: -0.75rem;
+  margin-top: -1rem;
 }
 
 .muted {
