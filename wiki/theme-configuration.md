@@ -9,7 +9,7 @@ date: 2019-11-09
 `admin_email`
 : Site administrator email
 
-:`created_by`
+`created_by`
 : Site author, will show on footer copyright line
 
 `font-accent`
