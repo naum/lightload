@@ -1,4 +1,5 @@
 baseurl: ""
-font_accent: "Merriweather"
-font_main: "Fira Sans"
+created_by: "GNT"
+font_accent: "Cardo"
+font_main: "Josefin Sans"
 title: "Lightload"
