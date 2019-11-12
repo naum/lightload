@@ -6,6 +6,12 @@ date: 2019-11-09
 
 ### `_config.yml` settings
 
+`admin_email`
+: Site administrator email
+
+:`created_by`
+: Site author, will show on footer copyright line
+
 `font-accent`
 : Google font (short name) for headings, see *`font-main`* for an example on how to specify a value 
 
