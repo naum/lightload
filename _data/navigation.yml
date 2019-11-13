@@ -4,3 +4,5 @@
   link: /about.html
 - name: ReadMe
   link: /README.html
+- name: RSS
+  link: /rss.xml

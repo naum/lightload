@@ -3,9 +3,8 @@ baseurl: ""
 created_by: "GNT"
 font_accent: "Cardo"
 font_main: "Josefin Sans"
+url: https://lightload.nauminous.net
 title: "Lightload"
-plugins:
-  - jekyll-feed
 defaults:
   - scope:
       path: "wiki"
