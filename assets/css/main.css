@@ -58,6 +58,7 @@ dt {
 figure {
   display: flex;
   flex-direction: column;
+  margin-bottom: 2.37rem;
   justify-content: center;
 }
 
@@ -120,6 +121,8 @@ h4 {
 hr {
   border: none;
   border-top: 1px solid var(--dark-accent);
+  margin: 1.33rem 0;
+  padding: 0;
 }
 
 img {
@@ -143,9 +146,18 @@ nav > a {
   padding: 0 1.333rem 0 0;
 }
 
+pre {
+  font-size: 1rem;
+  line-height: 133.33%;
+  padding: 1rem;
+  background-color: var(--dark-accent);
+  border-radius: 0.25rem;
+}
+
 pre, pre code {
   overflow-x: auto;
   white-space: pre-wrap;
+  word-wrap: normal;
 }
 
 span.newthought {
