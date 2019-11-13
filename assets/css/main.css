@@ -55,6 +55,20 @@ dt {
   font-weight: 700;
 }
 
+figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+figure > figcaption {
+  color: var(--light-accent);
+  font-variant: small-caps;
+  font-size: 1.0rem;
+  line-height: 166%;
+  margin: auto;  
+}
+
 footer {
   font-size: 0.75rem;
   font-style: italic;
@@ -94,6 +108,17 @@ h2 {
 h3 {
   color: var(--light-accent);
   font-size: 1.77rem;
+  margin-top: 2.37rem;
+  margin-bottom: 0.75rem;
+}
+
+h4 {
+  color: var(--light-accent);
+  font-weight: 700;
+}
+
+img {
+  max-width: 100% !important;
 }
 
 li {
@@ -110,6 +135,17 @@ nav {
 nav > a {
   display: inline-block;
   padding: 0 1.333rem 0 0;
+}
+
+pre, pre code {
+  overflow-x: auto;
+  white-space: pre-wrap;
+}
+
+span.newthought {
+  font-variant: small-caps;
+  font-size: 1.77rem;
+  letter-spacing: 0.05rem;
 }
 
 table {

@@ -4,3 +4,9 @@ created_by: "GNT"
 font_accent: "Cardo"
 font_main: "Josefin Sans"
 title: "Lightload"
+defaults:
+  - scope:
+      path: "wiki"
+      type: "wiki"
+    values:
+      layout: "wiki"

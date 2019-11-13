@@ -1,3 +1,6 @@
-# A simple Jekyll theme.
+---
+layout: default
+title: README
+---
 
-Modeled after wiki engines.
+{% include readme.md %}
