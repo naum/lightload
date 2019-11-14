@@ -10,7 +10,7 @@ title: articles
 {% for page in wiki_pages %}
   {%- if page.url contains "/wiki" -%}
     <tr>
-      <td class="muted">{{ page.date | date: "%e %b %Y" }}</td>
+      <td class="muted r">{{ page.date | date: "%e %b %Y" }}</td>
       <td><a href="{{ page.url }}">{{ page.title }}</a></td>
     </tr>
   {%- endif -%}

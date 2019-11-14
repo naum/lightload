@@ -205,7 +205,15 @@ tfoot {
   margin-top: -2rem;
 }
 
+.l {
+  text-align: left;
+}
+
 .muted {
   font-size: 0.75rem;
   color: var(--dark-accent);
+}
+
+.r {
+  text-align: right;
 }
