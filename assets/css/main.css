@@ -42,7 +42,7 @@ body {
   font-size: 133.33%;
   line-height: 1.77rem;
   max-width: 50rem;
-  margin: 1.33rem auto;
+  margin: 1.77rem auto;
   padding: 0 0.75rem;
   text-rendering: optimizeLegibility;
 }
@@ -131,7 +131,7 @@ img {
 }
 
 li {
-  margin-top: 0.5rem;
+  margin-top: 1rem;
 }
 
 nav {

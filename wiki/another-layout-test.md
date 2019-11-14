@@ -1,5 +1,4 @@
 ---
-layout: wiki
 title: Another Layout Test
 date: 2019-11-13
 ---

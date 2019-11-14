@@ -5,9 +5,10 @@ font_accent: "Cardo"
 font_main: "Josefin Sans"
 url: https://lightload.nauminous.net
 title: "Lightload"
+
 defaults:
   - scope:
       path: "wiki"
-      type: "wiki"
+      type: "pages"
     values:
       layout: "wiki"
